@@ -1,7 +1,7 @@
 #!/usr/bin/python python
 # author='Kalyan Sankar'
 
-from decorator import generator_forloop, generator_next
+from decorator import *
 
 #----- generate fibonacci series for a given 'n' number using generator -----
 @generator_next        # use any one decorator
