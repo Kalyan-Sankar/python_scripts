@@ -14,7 +14,7 @@ def ReverseMat(mat, n):
             x = str(mat[j][n-(i+1)])
             output+=x+" "
 
-    print (f'Reverse of a given matrix is: {output}')
+    return f'Reverse of a given matrix is: {output}'
 
 mat=[
     [1,2,3,4],
