@@ -14,3 +14,9 @@ def generator_next(func):
         result=func(*args, **kwargs)
         return [next(result) for _ in range(*args, **kwargs)]
     return wrapper
+
+def output(func):
+    def wrapper(*args, **kwargs):
+        output=func(*args, **kwargs)
+        return output
+    return wrapper
