@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# author='Kalyan Sankar'
+#author='Kalyan Sankar'
 
 #-----decorator(@generator_result) to use for generators-----
 
