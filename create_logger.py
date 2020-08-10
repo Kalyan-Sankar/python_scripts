@@ -43,4 +43,3 @@ class main:
 if __name__ == "__main__":
     start=main(logger)
     start.log_func()
-
